@@ -8,13 +8,14 @@ module.exports = defineConfig({
     },
     use: {
         headless: false, // No levantar UI
+        slowMo: 500, // Retrasar cada acción por 500ms
         screenshot: 'only-on-failure',
         video: 'retain-on-failure',
     },
     projects: [
         { name: 'chromium', use: { browserName: 'chromium' } },
-        //{ name: 'firefox', use: { browserName: 'firefox' } },    
-        //{ name: 'webkit', use: { browserName: 'webkit' } },
-    ],
+    //     { name: 'firefox', use: { browserName: 'firefox' } },    
+    //     { name: 'webkit', use: { browserName: 'webkit' } },
+ ],
     reporter: [['html', { outputFolder: 'playwright-report' }]]
 })

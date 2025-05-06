@@ -57,7 +57,6 @@ Aplicar los conocimientos adquiridos durante el proceso de formación para autom
 - `VS Code`
 - `Node.js`
 - `Chromium` y `Firefox`
-- Capturas y reportes HTML automáticos
 
 ---
 
@@ -65,5 +64,9 @@ Aplicar los conocimientos adquiridos durante el proceso de formación para autom
 
 1. Clonar este repositorio  
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo
+   git clone https://github.com/Michael-SCS/Playwright_Final.git
+   cd Playwright_Final
+
+
+## 🙌 Agradecimientos
+Gracias al equipo de T-Evolvers y al Ing. Rubén Martínez Padilla por su guía y enseñanza durante todo el proceso. Este reto marca un paso importante en mi formación como futuro QA Automation Engineer.
